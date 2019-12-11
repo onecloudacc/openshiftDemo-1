@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OpenshiftController {
 
     // http://localhost:8080/api/v1/openshift
+    // http://openshiftv1-projectv1.apps.ca-central-1.starter.openshift-online.com/api/v1/openshift
     @GetMapping("/openshift")
     public String openshiftGetApi() {
 
